@@ -1,0 +1,6 @@
+m1=float(input("enter the mass of the first object(in Kg):"))
+m2=float(input("enter the mass of the second object(in Kg):"))
+r=float(input("enter the distance between the two objects*(in meters):"))
+G=(6.67)*(10**(-11))
+f=G*m1*m2/(r*r)
+print("gravitational force:",f)
